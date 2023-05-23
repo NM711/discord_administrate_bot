@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "deploy": "node deploy_commands.js",
+    "bot": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "eslint-config-standard": "^17.0.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
